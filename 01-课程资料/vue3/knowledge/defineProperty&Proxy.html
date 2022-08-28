@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珠峰培训零基础高薪就业班</title>
+</head>
+
+<body>
+    <script>
+        /*
+          Vue2是基于Object.defineProperty实现数据劫持的（get/set）
+            + 需要给对象中的每一个属性分别遍历做劫持「对于后期新增的属性是没有做劫持的，vue2中可以基于$set实现新增属性的劫持」
+            + 对于数组中的每一项没有做劫持「vue2中重写了数组7个方法，后期通过这7个方法修改数组中的某一项，才会让视图重新渲染」
+            + 默认劫持是“浅”的，vue2自动基于递归的方式实现了深度劫持
+            + ES5的API，兼容IE9及以上
+
+          Vue3中的响应式数据，是基于ES6中的Proxy实现的
+            + ES6的API，不兼容IE
+            + Proxy除了提供get/set监听器之外，还提供了其它大量的监听函数，当我们操作对象的时候，可以做到全方位劫持监听
+            + Proxy无需自己依次遍历对象的每个属性，只需要代理整个对象，则所有属性都做代理了「哪怕是后期自己新增的属性也会做代理」
+            + Proxy对数组的处理也很友好，vue3中直接对数组每一项做代理，后期我们操作数组每一项，也会触发视图更新，没必要重写7个方法
+            + Proxy默认也只是对对象中第一层做代理，而vue3中基于递归的方式，也实现了深层次代理
+         */
+        const isPlainObject = function isPlainObject(obj) {
+            let proto, Ctor;
+            if (!obj || Object.prototype.toString.call(obj) !== "[object Object]") return false;
+            proto = Object.getPrototypeOf(obj);
+            if (!proto) return true;
+            Ctor = proto.hasOwnProperty('constructor') && proto.constructor;
+            return typeof Ctor === "function" && Ctor === Object;
+        };
+
+        let obj = {
+            x: 1,
+            y: {
+                n: 2,
+                m: 3
+            },
+            z: [10, 20, 30]
+        };
+        let proxyObj = new Proxy(obj, {
+            get(target, key) {
+                return Reflect.get(target, key);
+            },
+            set(target, key, value) {
+                if (Reflect.get(target, key) === value) return;
+                Reflect.set(target, key, value);
+                // 通知视图渲染
+                console.log('视图更新...');
+            },
+            deleteProperty(target, key) {
+                Reflect.deleteProperty(target, key);
+            }
+        });
+        obj.name = '珠峰';
+
+        let arr = [10, 20, 30];
+        let proxyArr = new Proxy(arr, {
+            get(target, key) {
+                return Reflect.get(target, key);
+            },
+            set(target, key, value) {
+                if (Reflect.get(target, key) === value) return;
+                Reflect.set(target, key, value);
+                // 通知视图渲染
+                console.log('视图更新...');
+            }
+        });
+
+
+
+        // ========
+        /* let keys = Object.keys(obj);
+        if (typeof Symbol !== "undefined") keys = keys.concat(Object.getOwnPropertySymbols(obj)); */
+        /* const observe = function observe(obj) {
+            let proxyObj = JSON.parse(JSON.stringify(obj));
+            let keys = Reflect.ownKeys(obj);
+            keys.forEach(key => {
+                Object.defineProperty(obj, key, {
+                    get() {
+                        return proxyObj[key];
+                    },
+                    set(value) {
+                        if (proxyObj[key] === value) return;
+                        proxyObj[key] = value;
+                        // 通知视图渲染
+                    }
+                });
+                let value = obj[key];
+                if (isPlainObject(value)) {
+                    observe(value);
+                }
+            });
+            return proxyObj;
+        };
+        observe(obj);
+        obj.name = '珠峰'; */
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

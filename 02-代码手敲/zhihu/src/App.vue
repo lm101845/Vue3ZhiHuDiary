@@ -11,7 +11,7 @@ export default {
 <style lang="less">
 html,
 body {
-  min-height: 100%;
+  min-height: 100%;  //最小也是一屏
   overflow-x: hidden;
   background: #f4f4f4;
 }

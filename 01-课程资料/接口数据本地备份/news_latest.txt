@@ -1,0 +1,114 @@
+{
+"date": "20220907",
+"stories": [
+{
+"image_hue": "0xb37b5b",
+"title": "为什么电影《隐入尘烟》票房走势影史罕见？",
+"url": "https://daily.zhihu.com/story/9752658",
+"hint": "毒眸 · 5 分钟阅读",
+"ga_prefix": "090709",
+"images": [
+"https://pica.zhimg.com/v2-766836882cd61afeac7f393916d478f6.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752658
+},
+{
+"image_hue": "0xb3b3b3",
+"title": "有什么科学的读书方法？",
+"url": "https://daily.zhihu.com/story/9752643",
+"hint": "逝水 · 11 分钟阅读",
+"ga_prefix": "090709",
+"images": [
+"https://pica.zhimg.com/v2-8e347a8d0f4af6379fde05d1d83eaeb9.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752643
+},
+{
+"image_hue": "0x412f22",
+"title": "为什么有人把刘备看成偶像？",
+"url": "https://daily.zhihu.com/story/9752652",
+"hint": "郭大路 · 3 分钟阅读",
+"ga_prefix": "090709",
+"type": 0,
+"id": 9752652
+},
+{
+"image_hue": "0x2b3b41",
+"title": "为什么动物是雄性漂亮，而人正相反？",
+"url": "https://daily.zhihu.com/story/9752665",
+"hint": "瞻云 · 5 分钟阅读",
+"ga_prefix": "090709",
+"images": [
+"https://picx.zhimg.com/v2-9efb5dceeee04a063ac0f8c8b06944f9.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752665
+},
+{
+"image_hue": "0x171410",
+"title": "既然人能晒黑，那人体能当作胶片用吗？",
+"url": "https://daily.zhihu.com/story/9752676",
+"hint": "黄一凯 · 1 分钟阅读",
+"ga_prefix": "090709",
+"images": [
+"https://pica.zhimg.com/v2-79cb91eb4c868e28fad7d2ac2826bce0.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752676
+}
+],
+"top_stories": [
+{
+"image_hue": "0xb37b5b",
+"hint": "作者 / 毒眸",
+"url": "https://daily.zhihu.com/story/9752658",
+"image": "https://picx.zhimg.com/v2-a2f8b970b8bf164c320681d6e523edde.jpg?source=8673f162",
+"title": "为什么电影《隐入尘烟》票房走势影史罕见？",
+"ga_prefix": "090709",
+"type": 0,
+"id": 9752658
+},
+{
+"image_hue": "0xb3b3b3",
+"hint": "作者 / 赵学浩",
+"url": "https://daily.zhihu.com/story/9752583",
+"image": "https://picx.zhimg.com/v2-f82e29bb4f8e1e5bf8f3b9551f4484dc.jpg?source=8673f162",
+"title": "有哪些曾经的世界未解之谜被证明是骗局？",
+"ga_prefix": "090607",
+"type": 0,
+"id": 9752583
+},
+{
+"image_hue": "0x7085b3",
+"hint": "作者 / 艾比斯",
+"url": "https://daily.zhihu.com/story/9752548",
+"image": "https://pic4.zhimg.com/v2-874142c380fd96698819429a6211bba3.jpg?source=8673f162",
+"title": "为什么人会惯用右手？",
+"ga_prefix": "090507",
+"type": 0,
+"id": 9752548
+},
+{
+"image_hue": "0xb39d7d",
+"hint": "作者 / 庸人心崽",
+"url": "https://daily.zhihu.com/story/9752510",
+"image": "https://picx.zhimg.com/v2-67b0f7cf1d177932345c3a9773795e14.jpg?source=8673f162",
+"title": "小事 · “因为，她只记得我啊。”",
+"ga_prefix": "090407",
+"type": 0,
+"id": 9752510
+},
+{
+"image_hue": "0x342319",
+"hint": "作者 / 花菌子",
+"url": "https://daily.zhihu.com/story/9752497",
+"image": "https://picx.zhimg.com/v2-d68b633ab4f8ff6b675a78cf18efaca1.jpg?source=8673f162",
+"title": "小事 · 我父母是一对狠人",
+"ga_prefix": "090307",
+"type": 0,
+"id": 9752497
+}
+]
+}

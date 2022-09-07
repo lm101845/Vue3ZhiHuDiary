@@ -1,0 +1,77 @@
+{
+"date": "20220906",
+"stories": [
+{
+"image_hue": "0xb3b3b3",
+"title": "有哪些曾经的世界未解之谜被证明是骗局？",
+"url": "https://daily.zhihu.com/story/9752583",
+"hint": "赵学浩 · 45 分钟阅读",
+"ga_prefix": "090607",
+"images": [
+"https://pic3.zhimg.com/v2-24047e1911bb61eba29821635d4ccd56.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752583
+},
+{
+"image_hue": "0x364ba2",
+"title": "你认为最大的智商税是什么？",
+"url": "https://daily.zhihu.com/story/9752621",
+"hint": "叔贵 · 3 分钟阅读",
+"ga_prefix": "090607",
+"images": [
+"https://pic1.zhimg.com/v2-78b4eff992d923458e06053544849099.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752621
+},
+{
+"image_hue": "0x14181c",
+"title": "抑郁症、焦虑症的根源到底是什么？",
+"url": "https://daily.zhihu.com/story/9752625",
+"hint": "远方的田野 · 13 分钟阅读",
+"ga_prefix": "090607",
+"images": [
+"https://picx.zhimg.com/v2-94d1770b77f13a80044102ec879772f0.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752625
+},
+{
+"image_hue": "0x4a4034",
+"title": "貔貅到底是干什么的？到底招财不招财？",
+"url": "https://daily.zhihu.com/story/9752626",
+"hint": "豆子 · 3 分钟阅读",
+"ga_prefix": "090607",
+"images": [
+"https://pic3.zhimg.com/v2-f6246920b513023c2e788fb200cd590d.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752626
+},
+{
+"image_hue": "0xb07238",
+"title": "这些年来，原生家庭的影响是否被过度夸大了？",
+"url": "https://daily.zhihu.com/story/9752630",
+"hint": "程毅南 · 3 分钟阅读",
+"ga_prefix": "090607",
+"images": [
+"https://picx.zhimg.com/v2-d932d98a38e615bd07f398352f72f87d.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752630
+},
+{
+"image_hue": "0x70654f",
+"title": "瞎扯 · 如何正确地吐槽",
+"url": "https://daily.zhihu.com/story/9752637",
+"hint": "VOL.3000",
+"ga_prefix": "090606",
+"images": [
+"https://picx.zhimg.com/v2-ea48ee2bb1fed5d66ea28ddd9a7c3e27.jpg?source=8673f162"
+],
+"type": 0,
+"id": 9752637
+}
+]
+}

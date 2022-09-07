@@ -5,6 +5,8 @@ import { Notify } from 'vant';
 import md5 from 'blueimp-md5';
 axios.defaults.baseURL = '';
 axios.defaults.timeout = 60000;
+//transformRequest 允许在向服务器发送前，修改请求数据
+//它只能用于 'PUT', 'POST' 和 'PATCH' 这几个请求方法
 axios.defaults.transformRequest = data => {
     if (isPlainObject(data)) return qs.stringify(data);
     return data;

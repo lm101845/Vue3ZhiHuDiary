@@ -1,4 +1,4 @@
-https://www.bilibili.com/video/BV1a341137Ex?p=1&vd_source=4b95d42263c16c1accb3068aa6dfda89
+https://www.bilibili.com/video/BV1a341137Ex?p=1
 
 zhihu_admin为后端服务器，先pnpm install下载依赖，然后node server.js即可。为了效果更好(关闭窗口服务器仍然存在)，可以下载pm2(pnpm install pm2 -g)，然后用pm2 start server.js --name ZHIHU，即可开启一个服务。
 
@@ -7,3 +7,4 @@ zhihu_admin为后端服务器，先pnpm install下载依赖，然后node server.
 第5集看到第1h——22-08-28
 第5集看完——22-08-29
 第6集看完——22-09-07
+第7集看完——22-09-10

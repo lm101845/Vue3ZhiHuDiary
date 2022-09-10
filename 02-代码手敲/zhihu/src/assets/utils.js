@@ -28,7 +28,7 @@ export const handleMaxWidth = function handleMaxWidth() {
 // 日期格式化
 export const formatTime = function formatTime(time, template) {
     if (typeof time !== "string") {
-        time = new Date().toLocaleString('zh-CN', {hour12: false});
+        time = new Date().toLocaleString('zh-CN', { hour12: false });
     }
     if (typeof template !== "string") {
         template = "{0}年{1}月{2}日 {3}:{4}:{5}";
